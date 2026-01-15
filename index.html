@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Glass Music Player</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-animation"></div>
+
+<div class="player-container">
+
+  <div class="top-bar">
+    <button id="themeBtn">🌙</button>
+    <select id="colorTheme">
+      <option value="purple">Purple</option>
+      <option value="blue">Blue</option>
+      <option value="green">Green</option>
+      <option value="red">Red</option>
+    </select>
+  </div>
+
+  <div class="card">
+    <div class="artwork">
+      <img id="cover">
+    </div>
+
+    <div class="details">
+      <h3 id="title"></h3>
+      <p id="artist"></p>
+    </div>
+
+    <input type="range" id="progress" value="0">
+
+    <div class="time">
+      <span id="current">0:00</span>
+      <span id="duration">0:00</span>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button id="likeBtn">♡</button>
+    <button id="prevBtn">⏮</button>
+    <button id="playBtn">▶</button>
+    <button id="nextBtn">⏭</button>
+  </div>
+
+  <audio id="audio"></audio>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
