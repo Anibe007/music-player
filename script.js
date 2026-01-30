@@ -19,7 +19,7 @@ let songIndex = 0;
 /* Playlist */
 const songs = [
   { name:"God I look to you", artist:"Jen Johnson", src:"./audio/God I look to you.mp3", cover:"./images/music-6.jpg" },
-  { name:"Draw me close to you", artist:"Dunsin", src:"./audio/nagode.mp3", cover:"./images/music-1.jpg" }
+  { name:"nagode", artist:"Dunsin", src:"./audio/nagode.mp3", cover:"./images/music-1.jpg" }
 ];
 
 function loadSong(s){
@@ -89,3 +89,4 @@ colorTheme.onchange = ()=>{
   document.body.classList.remove("purple","blue","green","red");
   document.body.classList.add(colorTheme.value);
 };
+
