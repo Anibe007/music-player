@@ -18,8 +18,8 @@ let songIndex = 0;
 
 /* Playlist */
 const songs = [
-  { name:"Extreme Ways", artist:"Moby", src:"song1.mp3", cover:"./images/music-6.jpg" },
-  { name:"Porcelain", artist:"Moby", src:"song2.mp3", cover:"./images/music-1.jpg" }
+  { name:"God I look to you", artist:"Jen Johnson", src:"./audio/God I look to you.mp3", cover:"./images/music-6.jpg" },
+  { name:"Draw me close to you", artist:"Dunsin", src:"./audio/nagode.mp3", cover:"./images/music-1.jpg" }
 ];
 
 function loadSong(s){
